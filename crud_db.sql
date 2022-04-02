@@ -11,7 +11,7 @@
  Target Server Version : 100421
  File Encoding         : 65001
 
- Date: 02/04/2022 08:47:15
+ Date: 02/04/2022 08:49:20
 */
 
 SET NAMES utf8mb4;
@@ -28,10 +28,5 @@ CREATE TABLE `users`  (
   `mobile` varchar(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
 ) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
-
--- ----------------------------
--- Records of users
--- ----------------------------
-INSERT INTO `users` VALUES (2, 'Wildan', 'wildanfadhlulloh@gmail.com', '085465897529');
 
 SET FOREIGN_KEY_CHECKS = 1;
