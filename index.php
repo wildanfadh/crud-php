@@ -28,6 +28,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
                 echo "<td>" . $row['mobile'] . "</td>";
                 echo "<td>" . $row['email'] . "</td>";
                 echo "<td><a href='edit.php?id=$row[id]'>Edit</a> | <a href='delete.php?id=$row[id]'>Delete</a></td>";
+                echo "</tr>";
             }
         } else {
             echo "No Data Avaliable";
